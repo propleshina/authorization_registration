@@ -1,0 +1,23 @@
+﻿<Page x:Class="WpfApp2.AuthPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp2"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AuthPage" Background="Honeydew" >
+
+
+    <Grid>
+        <Image Margin="110,45" Source="Image3.png" Stretch="Fill"/>
+
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="321,176,0,0" VerticalAlignment="Top" Height="27" Width="52" Background="Honeydew"/>
+
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="321,129,0,0" VerticalAlignment="Top" Height="28" Width="52" Background="Honeydew"/>
+        <Button Content="Вход" x:Name="Vxod_button" HorizontalAlignment="Left" Height="44" Margin="311,221,0,0" VerticalAlignment="Top" Width="188" Click="Vxod_button_Click" FontFamily="Yu Gothic" Background="Honeydew"/>
+        <TextBox x:Name="Login_text" HorizontalAlignment="Left" Height="27" Margin="389,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" Text="Логин или почта" Background="Honeydew"/>
+        <PasswordBox x:Name="Password_pasbox" HorizontalAlignment="Left" Height="27" Margin="389,176,0,0" VerticalAlignment="Top" Width="110" Password="Пароль" Background="Honeydew"/>
+
+    </Grid>
+</Page>
