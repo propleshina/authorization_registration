@@ -14,4 +14,11 @@ namespace WpfApp2
     public partial class App : Application
     {
     }
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+    }
 }
