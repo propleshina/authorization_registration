@@ -1,17 +1,17 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using System.Windows.Navigation;
 using WpfApp2;
 
-namespace UnitTestProject1
+namespace UnitTestProject5
 {
     [TestClass]
     public class UnitTest5
     {
         [TestMethod]
-        public void TestMethod1()
+        public void CapchaTest()
         {
             var page = new Capcha();
+            Assert.IsFalse(page.CheckCapcha_Click());
         }
     }
 }

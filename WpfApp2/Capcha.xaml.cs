@@ -54,12 +54,12 @@ namespace WpfApp2
         {
             if (textBoxCapcha.Text == CapchaEnterTextbox.Text)
             {
-                MessageBox.Show("азазаз");
+                MessageBox.Show("Ура! Вы не робот!");
                 NavigationService.Navigate(new AuthPage());
             }
             else
             {
-                MessageBox.Show("Вы слепой?");
+                MessageBox.Show("Попробуйте ещё раз");
                 generate();
             }
         }

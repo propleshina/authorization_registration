@@ -103,5 +103,9 @@ namespace WpfApp2
             }
         }
 
+        private void ButtonRegistration_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Registration());
+        }
     }
 }

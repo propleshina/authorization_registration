@@ -18,6 +18,7 @@
         <Button Content="Вход" x:Name="Vxod_button" HorizontalAlignment="Left" Height="44" Margin="311,221,0,0" VerticalAlignment="Top" Width="188" Click="Vxod_button_Click" FontFamily="Yu Gothic" Background="Honeydew"/>
         <TextBox x:Name="Login_text" HorizontalAlignment="Left" Height="27" Margin="389,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" Text="" Background="Honeydew"/>
         <PasswordBox x:Name="Password_pasbox" HorizontalAlignment="Left" Height="27" Margin="389,176,0,0" VerticalAlignment="Top" Width="110" Password="" Background="Honeydew"/>
+        <Button Content="Р е г и с т р а ц и я"  x:Name="RegistrationButton" HorizontalAlignment="Left" Margin="311,279,0,0" VerticalAlignment="Top" Width="188" Height="45" Background="Honeydew" Click="ButtonRegistration_Click"/>
 
     </Grid>
 </Page>

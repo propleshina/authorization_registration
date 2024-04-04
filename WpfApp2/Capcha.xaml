@@ -9,12 +9,11 @@
       Title="Capcha">
     <Grid Background="{x:Null}" Visibility="Visible">
 
-        <TextBox IsManipulationEnabled="False" IsReadOnly="True" Height="94" HorizontalAlignment="Left" FontSize="28" Foreground="Pink" FontStyle="Italic" FontWeight="Heavy" Margin="274,70,0,0" Name="textBoxCapcha" VerticalAlignment="Top" Width="309" Background="{x:Null}" FontStretch="UltraCondensed"/>
+        <TextBox IsReadOnly="True" Height="94" HorizontalAlignment="Left" FontSize="28" Foreground="Pink" FontStyle="Italic" FontWeight="Heavy" Margin="274,70,0,0" Name="textBoxCapcha" VerticalAlignment="Top" Width="309" Background="{x:Null}" FontStretch="UltraCondensed"/>
 
         <Button Content="Обновить капчу" Height="61" HorizontalAlignment="Left" Margin="193,324,0,0" Name="buttonCapcha" VerticalAlignment="Top" Width="224" Click="buttonCapcha_click" FontSize="22" FontWeight="Bold" />
         <TextBox x:Name="CapchaEnterTextbox" HorizontalAlignment="Left" Height="58" Margin="193,230,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="484" FontSize="16" FontStyle="Italic"/>
         <Button Name="CheckCapcha" Content="Проверить капчу" Height="61" HorizontalAlignment="Left" Margin="453,324,0,0" VerticalAlignment="Top" Width="224"  FontSize="22" FontWeight="Bold" Click="CheckCapcha_Click" />
-        <TextBox x:Name="CapchaEnterTextbox_Copy" HorizontalAlignment="Left" Height="58" Margin="193,230,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="484" FontSize="16" FontStyle="Italic"/>
-
+     
     </Grid>
 </Page>
