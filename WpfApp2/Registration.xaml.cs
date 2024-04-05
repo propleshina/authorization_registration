@@ -49,14 +49,14 @@ namespace WpfApp2
                 && !string.IsNullOrEmpty(TelephoneText.Text) && !string.IsNullOrEmpty(PhotoLinkText.Text) &&
                 (MaleRadioButton.IsChecked==true || FemaleRadioButton.IsChecked==true) && !(RoleComboBox.SelectedIndex==-1))
             {
-                for (int i = 0; i < 11; i++)
-                {
+                //for (int i = 0; i < 11; i++)
+                //{
 
-                }
-                if (яоляляля)
-                {
+                //}
+                //if (яоляляля)
+                //{
 
-                }
+                //}
                 else
                 {
                     MessageBox.Show("Вы ввели телефон неправильно!");
