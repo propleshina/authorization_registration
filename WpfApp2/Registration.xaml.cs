@@ -53,7 +53,7 @@ namespace WpfApp2
                 {
 
                 }
-                if ()
+                if (яоляляля)
                 {
 
                 }
