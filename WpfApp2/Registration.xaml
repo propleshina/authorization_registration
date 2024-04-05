@@ -15,11 +15,11 @@
         <Image Source="Image4.png" Stretch="Fill" Grid.RowSpan="2"/>
         <Image Margin="69,25,57,10" Source="Image6.png" Stretch="Fill"/>
 
-        <Button x:Name="RegButton" Content="Регистрация" HorizontalAlignment="Left" Margin="156,319,0,0" VerticalAlignment="Top" Width="155" Height="48" FontSize="16" FontWeight="Bold" Background="#FFF5D0B2"/>
+        <Button x:Name="RegButton" Content="Регистрация" HorizontalAlignment="Left" Margin="156,319,0,0" VerticalAlignment="Top" Width="155" Height="48" FontSize="16" FontWeight="Bold" Background="#FFF5D0B2" Click="RegButton_Click"/>
         <Button x:Name="BackButton" Content="Отмена" HorizontalAlignment="Left" Margin="382,319,0,0" VerticalAlignment="Top" Width="148" Height="48" FontWeight="Bold" FontSize="16" Background="#FFF5D0B2" Click="BackButton_Click"/>
-        <TextBox x:Name="FIOtext" HorizontalAlignment="Left" Height="34" Margin="229,39,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="342"/>
-        <TextBox x:Name="LoginText" HorizontalAlignment="Left" Height="29" Margin="229,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169"/>
-        <TextBox x:Name="PasswordText" HorizontalAlignment="Left" Height="29" Margin="230,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169"/>
+        <TextBox x:Name="FIOtext" HorizontalAlignment="Left" Height="34" Margin="229,39,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="342" FontSize="16"/>
+        <TextBox x:Name="LoginText" HorizontalAlignment="Left" Height="29" Margin="229,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" FontSize="16"/>
+        <PasswordBox x:Name="PasswordText" HorizontalAlignment="Left" Height="29" Margin="230,112,0,0" VerticalAlignment="Top" Width="169"/>
         <RadioButton x:Name="MaleRadioButton" Content="Мужской" HorizontalAlignment="Left" Margin="230,164,0,0" VerticalAlignment="Top" FontSize="18" OpacityMask="#FFC59C9C" FontWeight="Bold" Background="#FFEEB791" Height="23" Width="102">
             <RadioButton.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -37,8 +37,8 @@
             </RadioButton.Foreground>
         </RadioButton>
         <ComboBox x:Name="RoleComboBox" HorizontalAlignment="Left" Margin="235,203,0,0" VerticalAlignment="Top" Width="120" Height="22"/>
-        <TextBox x:Name="TelephoneText" HorizontalAlignment="Left" Height="32" Margin="234,231,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" RenderTransformOrigin="0.552,0.162"/>
-        <TextBox x:Name="PhotoLinkText" HorizontalAlignment="Left" Height="31" Margin="235,268,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="342"/>
+        <TextBox x:Name="TelephoneText" HorizontalAlignment="Left" Height="32" Margin="234,231,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" RenderTransformOrigin="0.552,0.162" FontSize="16"/>
+        <TextBox x:Name="PhotoLinkText" HorizontalAlignment="Left" Height="31" Margin="235,268,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="342" FontSize="16"/>
         <Label Content="ФИО:" HorizontalAlignment="Left" Margin="176,42,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0.298,-0.173" Height="31" Width="53"/>
         <Label Content="Логин:" HorizontalAlignment="Left" Margin="168,78,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0.384,-0.393" Height="31" Width="62"/>
         <Label Content="Пароль:" HorizontalAlignment="Left" Margin="156,112,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Height="31" Width="73"/>
@@ -47,6 +47,6 @@
         <Label Content="Телефон:" HorizontalAlignment="Left" Margin="149,231,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Height="31" Width="81"/>
         <Label Content="Ссылка на фото:" HorizontalAlignment="Left" Margin="92,268,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Height="31" Width="138"/>
         <Label Content="Повторите пароль:" HorizontalAlignment="Left" Margin="400,110,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
-        <PasswordBox HorizontalAlignment="Left" Margin="564,110,0,0" VerticalAlignment="Top" Width="170" Height="33"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="564,110,0,0" VerticalAlignment="Top" Width="144" Height="33"/>
     </Grid>
 </Page>
