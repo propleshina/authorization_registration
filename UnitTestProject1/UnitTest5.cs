@@ -11,7 +11,9 @@ namespace UnitTestProject5
         public void CapchaTest()
         {
             var page = new Capcha();
-            Assert.IsFalse(page.CheckCapcha_Click());
+            Assert.IsFalse(page.Checking("lflf","lflfrfvre"));
+            Assert.IsFalse(page.Checking("lflf", ""));
+            Assert.IsFalse(page.Checking("lflf", "LFLF"));
         }
     }
 }

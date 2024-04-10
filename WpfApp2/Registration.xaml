@@ -37,7 +37,7 @@
             </RadioButton.Foreground>
         </RadioButton>
         <ComboBox x:Name="RoleComboBox" HorizontalAlignment="Left" Margin="235,203,0,0" VerticalAlignment="Top" Width="120" Height="22"/>
-        <TextBox x:Name="TelephoneText" HorizontalAlignment="Left" Height="32" Margin="234,231,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" RenderTransformOrigin="0.552,0.162" FontSize="16"/>
+        <TextBox x:Name="TelephoneText" HorizontalAlignment="Left" Height="32" Margin="236,231,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" RenderTransformOrigin="0.552,0.162" FontSize="16"/>
         <TextBox x:Name="PhotoLinkText" HorizontalAlignment="Left" Height="31" Margin="235,268,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="342" FontSize="16"/>
         <Label Content="ФИО:" HorizontalAlignment="Left" Margin="176,42,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0.298,-0.173" Height="31" Width="53"/>
         <Label Content="Логин:" HorizontalAlignment="Left" Margin="168,78,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0.384,-0.393" Height="31" Width="62"/>
@@ -47,6 +47,6 @@
         <Label Content="Телефон:" HorizontalAlignment="Left" Margin="149,231,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Height="31" Width="81"/>
         <Label Content="Ссылка на фото:" HorizontalAlignment="Left" Margin="92,268,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Height="31" Width="138"/>
         <Label Content="Повторите пароль:" HorizontalAlignment="Left" Margin="400,110,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
-        <PasswordBox HorizontalAlignment="Left" Margin="564,110,0,0" VerticalAlignment="Top" Width="144" Height="33"/>
+        <PasswordBox x:Name="PasswordText2" HorizontalAlignment="Left" Margin="564,110,0,0" VerticalAlignment="Top" Width="144" Height="33"/>
     </Grid>
 </Page>

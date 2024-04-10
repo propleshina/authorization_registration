@@ -19,5 +19,8 @@ namespace WpfApp2
         public string Password { get; set; }
         public string Role { get; set; }
         public string FIO { get; set; }
+        public string Gender { get; set; }
+        public string Phone { get; set; }
+        public string Photo { get; set; }
     }
 }

@@ -21,6 +21,7 @@ namespace WpfApp2
     /// </summary>
     public partial class Capcha : Page
     {
+
         public void generate()
         {
             String allowchar = " ";
@@ -52,15 +53,21 @@ namespace WpfApp2
 
         private void CheckCapcha_Click(object sender, RoutedEventArgs e)
         {
-            if (textBoxCapcha.Text == CapchaEnterTextbox.Text)
+            Checking(textBoxCapcha.Text, CapchaEnterTextbox.Text);
+        }
+        public bool Checking(string textBoxCapcha, string CapchaEnterTextbox)
+        {
+            if (textBoxCapcha == CapchaEnterTextbox)
             {
                 MessageBox.Show("Ура! Вы не робот!");
                 NavigationService.Navigate(new AuthPage());
+                return true;
             }
             else
             {
                 MessageBox.Show("Попробуйте ещё раз");
                 generate();
+                return false;
             }
         }
     }
