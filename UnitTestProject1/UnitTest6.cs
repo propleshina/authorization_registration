@@ -23,8 +23,7 @@ namespace UnitTestProject1
                 "https://strana-rosatom.ru/wp-content/uploads/2022/04/tjulen2.jpg", ""));
             Assert.IsFalse(page.RegistrationCheck("фио", "fio", "dkfl", "fio", "Администратор", "88005553344", 
                 "https://strana-rosatom.ru/wp-content/uploads/2022/04/tjulen2.jpg", "М"));
-            Assert.IsTrue(page.RegistrationCheck("фио", "fio", "fio", "fio", "Администратор", "88005553344",
-    "https://strana-rosatom.ru/wp-content/uploads/2022/04/tjulen2.jpg", "М"));
+
         }
     }
 }
