@@ -14,6 +14,7 @@ namespace UnitTestProject5
             Assert.IsFalse(page.Checking("lflf","lflfrfvre"));
             Assert.IsFalse(page.Checking("lflf", ""));
             Assert.IsFalse(page.Checking("lflf", "LFLF"));
+            Assert.IsTrue(page.Checking("LFLF", "LFLF"));
         }
     }
 }

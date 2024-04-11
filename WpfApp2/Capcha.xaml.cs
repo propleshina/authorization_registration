@@ -53,15 +53,17 @@ namespace WpfApp2
 
         private void CheckCapcha_Click(object sender, RoutedEventArgs e)
         {
-            Checking(textBoxCapcha.Text, CapchaEnterTextbox.Text);
+            if(Checking(textBoxCapcha.Text, CapchaEnterTextbox.Text) == true)
+            {
+                NavigationService.Navigate(new AuthPage());
+            }
         }
         public bool Checking(string textBoxCapcha, string CapchaEnterTextbox)
         {
             if (textBoxCapcha == CapchaEnterTextbox)
             {
                 MessageBox.Show("Ура! Вы не робот!");
-                NavigationService.Navigate(new AuthPage());
-                return true;
+                return true;              
             }
             else
             {

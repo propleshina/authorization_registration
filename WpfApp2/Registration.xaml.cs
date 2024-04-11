@@ -50,12 +50,12 @@ namespace WpfApp2
                && !string.IsNullOrEmpty(telephone) && !string.IsNullOrEmpty(photo))
             {
 
-                if (TelephoneText.Text.Length == 11)
+                if (telephone.Length == 11)
                 {
                     bool isphone = true;
                     for (int i = 0; i < 11; i++)
                     {
-                        if (!Char.IsDigit(TelephoneText.Text[i]))
+                        if (!Char.IsDigit(telephone[i]))
                         {
                             isphone = false;
                             break;
